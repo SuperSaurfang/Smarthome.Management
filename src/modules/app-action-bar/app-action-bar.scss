@@ -1,0 +1,7 @@
+@use '../../core/scss/core-utils.scss' as utils;
+
+div {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: utils.power(.5);
+}

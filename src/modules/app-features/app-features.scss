@@ -1,0 +1,9 @@
+@use '../../core/scss/core-utils.scss' as utils;
+
+div.root {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  border-top: 1px solid yellow;
+  border-right: 1px solid yellow;
+  padding: utils.power(.5);
+}
